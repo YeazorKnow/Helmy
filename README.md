@@ -3,19 +3,19 @@ A PoC Discord bot that show information from the game's database.
 
 # Dependencies
 
-*Python 3 \n
-*PyPlayerIO - https://github.com/Endi0n/PyPlayerIO \n
-*protobuf - pip3 install "protobuf>=3.4.0,<3.7" \n
+*Python 3<br/>
+*PyPlayerIO - https://github.com/Endi0n/PyPlayerIO<br/>
+*protobuf - pip3 install "protobuf>=3.4.0,<3.7"<br/>
 
 # Commands
 
-!online\n
-!skills {player name}\n
-!proficencey {player name}\n
-!lottowinner - may not work\n
-!lottoinfo - may not work\n
-!playerinfo {player name}\n
-!bank {player name}\n
-!guild {guild name}\n
+!online<br/>
+!skills {player name}<br/>
+!proficencey {player name}<br/>
+!lottowinner - may not work<br/>
+!lottoinfo - may not work<br/>
+!playerinfo {player name}<br/>
+!bank {player name}<br/>
+!guild {guild name}<br/>
 
 # *This is provided as is and will require work.
