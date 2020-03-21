@@ -1,5 +1,5 @@
 # Helmy
-A PoC Discord bot that show information from the game's database.
+A PoC Discord bot that shows information from the game's database.
 
 # Dependencies
 
