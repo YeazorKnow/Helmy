@@ -25,7 +25,7 @@ async def online(ctx):
     await ctx.send(embed = embed)
 
 @bot.command()
-async def online(ctx, player: str):
+async def skills(ctx, player: str):
     
     skills = client.bigdb_load('skillsData', player)
     await ctx.send(skills)
