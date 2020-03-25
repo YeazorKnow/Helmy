@@ -3,9 +3,16 @@ A PoC Discord bot that shows information from the game's database.
 
 # Dependencies
 
-*Python 3<br/>
-*PyPlayerIO - https://github.com/Endi0n/PyPlayerIO<br/>
-*protobuf - pip3 install "protobuf>=3.4.0,<3.7"<br/>
+*Python 3 - https://www.python.org/downloads/<br/>
+*Git - https://git-scm.com/downloads<br/>
+*PyPlayerIO - pip install git+https://github.com/oxidan/PyPlayerIO<br/>
+*protobuf - pip install "protobuf>=3.4.0,<3.7"<br/>
+
+# Getting Started
+
+Install Python and Git. Recommended to add both to PATH during install.
+Once both are installed correctly, open CMD and install PyPlayerIO and protobuf using the above commands.
+In helmy.py insert the bots token and run the script.
 
 # Commands
 
