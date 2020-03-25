@@ -5,7 +5,7 @@ A PoC Discord bot that shows information from the game's database.
 
 *Python 3 - https://www.python.org/downloads/<br/>
 *Git - https://git-scm.com/downloads<br/>
-*Discord.py - pip install discord.py
+*Discord.py - pip install discord.py<br/>
 *PyPlayerIO - pip install git+https://github.com/oxidan/PyPlayerIO<br/>
 *protobuf - pip install "protobuf>=3.4.0,<3.7"<br/>
 
