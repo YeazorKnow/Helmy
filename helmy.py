@@ -2,12 +2,13 @@ from playerio import *
 import discord
 from discord.ext import commands
 
-prefix = '!'
+prefix = str(os.environ.get('prefix'))
 bot = commands.Bot(command_prefix = prefix)
-token = 'Token'
+token = str(os.environ.get('token'))
+user = str(os.environ.get('user'))
+password = str(os.environ.get('password'))
 
-#Connect to the game with username and password. Throw away account provided.
-client = Client('hello-world-f8wdei2ucusdudkhbayw9g', 'BeholdABot', 'test')
+client = Client('hello-world-f8wdei2ucusdudkhbayw9g', user, password)
 
 @bot.command()
 async def online(ctx):
