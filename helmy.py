@@ -1,3 +1,4 @@
+import os
 from playerio import *
 import discord
 from discord.ext import commands
